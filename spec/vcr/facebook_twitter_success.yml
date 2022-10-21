@@ -1,0 +1,145 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://takehome.io/facebook
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.93.1
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message:
+    headers:
+      Date:
+      - Fri, 21 Oct 2022 19:53:26 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '219'
+      Connection:
+      - keep-alive
+      access-control-allow-origin:
+      - "*"
+      X-Cloud-Trace-Context:
+      - c9b3033c8831df6ea1bbd2faa9aa7e2f
+      Via:
+      - 1.1 google
+      CF-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DK5oe84PP0kFgVe07T%2F%2FjcawSGDMvSWG4MapBVcnCrTiAELhzi39xnZyTMCYVsNGgHB60Y7VNlg78savSZwAeN8Qhm8Oz2ucwjNMP%2FLNZXyIk2lRtwmFXdS90mjrz2q7ngk%3D"}],"group":"cf-nel","max_age":604800}'
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      CF-RAY:
+      - 75dc8a0ffb63f158-CDG
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"name":"Some Friend","status":"Here''s some photos of my holiday.
+        Look how much more fun I''m having than you are!"},{"name":"Drama Pig","status":"I
+        am in a hospital. I will not tell you anything about why I am here."}]'
+  recorded_at: Fri, 21 Oct 2022 19:53:26 GMT
+- request:
+    method: get
+    uri: https://takehome.io/instagram
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.93.1
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 500
+      message:
+    headers:
+      Date:
+      - Fri, 21 Oct 2022 19:53:26 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '48'
+      Connection:
+      - keep-alive
+      X-Cloud-Trace-Context:
+      - 36706450e5c5cd99045fc87645734987
+      Via:
+      - 1.1 google
+      CF-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ckqo4gu3BbbuVjGNaVknvZxE5XVdj%2BfYhnlpoQfW%2Br7kwnr4TSh4jYdkYyAvDb%2Fv6QHy9BPitBTvjx9if74YSC64aArjRRFkf3Znq8IQjWXgSC6UaELcp6J3lbt8cTMq8V0%3D"}],"group":"cf-nel","max_age":604800}'
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      CF-RAY:
+      - 75dc8a126c8bf840-CDG
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: I am trapped in a social media factory send help
+  recorded_at: Fri, 21 Oct 2022 19:53:26 GMT
+- request:
+    method: get
+    uri: https://takehome.io/twitter
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.93.1
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message:
+    headers:
+      Date:
+      - Fri, 21 Oct 2022 19:53:26 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '321'
+      Connection:
+      - keep-alive
+      access-control-allow-origin:
+      - "*"
+      X-Cloud-Trace-Context:
+      - '0902775f85693b745ab0cee30e6972e0'
+      Via:
+      - 1.1 google
+      CF-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hVr7ZxFfPd8b9m7hkKREyCrY19J7TnIQVY%2BjWWQeK8fuU1DkQ8O52GQAU3bACroiUDRgY6Z1Ud0uirL4Txh5wI4oduAfEV4TEO0wGNWe80WwGLX9c4Cy3gWGkUHL2GtugJM%3D"}],"group":"cf-nel","max_age":604800}'
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      CF-RAY:
+      - 75dc8a14ff60d39b-CDG
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"username":"@GuyEndoreKaiser","tweet":"If you live to be 100, you
+        should make up some fake reason why, just to mess with people... like claim
+        you ate a pinecone every single day."},{"username":"@mikeleffingwell","tweet":"STOP
+        TELLING ME YOUR NEWBORN''S WEIGHT AND LENGTH I DON''T KNOW WHAT TO DO WITH
+        THAT INFORMATION."}]'
+  recorded_at: Fri, 21 Oct 2022 19:53:26 GMT
+recorded_with: VCR 6.1.0

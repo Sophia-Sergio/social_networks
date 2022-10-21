@@ -1,0 +1,142 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://takehome.io/facebook
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.93.1
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message:
+    headers:
+      Date:
+      - Fri, 21 Oct 2022 19:54:48 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '219'
+      Connection:
+      - keep-alive
+      access-control-allow-origin:
+      - "*"
+      X-Cloud-Trace-Context:
+      - 478311ace47d4864cb3e3870fd7d922a;o=1
+      Via:
+      - 1.1 google
+      CF-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CxyYFrXBklqZFtriXvIxv6WAuQn%2FMdxpFe4BhuaZo61aCgWIqFcV9B7lrtPFf3RBsB7y%2F8L7os6SKlplV51a9%2F6acqnmXrWr11jgQiLJPPurbgSytqrZw6yO%2BZnqOF3QmLo%3D"}],"group":"cf-nel","max_age":604800}'
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      CF-RAY:
+      - 75dc8c10eaead60d-CDG
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"name":"Some Friend","status":"Here''s some photos of my holiday.
+        Look how much more fun I''m having than you are!"},{"name":"Drama Pig","status":"I
+        am in a hospital. I will not tell you anything about why I am here."}]'
+  recorded_at: Fri, 21 Oct 2022 19:54:48 GMT
+- request:
+    method: get
+    uri: https://takehome.io/instagram
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.93.1
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message:
+    headers:
+      Date:
+      - Fri, 21 Oct 2022 19:54:48 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '226'
+      Connection:
+      - keep-alive
+      access-control-allow-origin:
+      - "*"
+      X-Cloud-Trace-Context:
+      - 263c0e1637d88b800c0471e48f12a301
+      Via:
+      - 1.1 google
+      CF-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UzKgn5Ok6eGeXCnUtSzUtLGMpkbSDu014AOf2dz%2FerleCKuPOCreHx%2BYZw5%2BtLQau7cw%2BpklMUTuyZiBNLfKdKlh9cDZmzr%2F4jSzjD16wVxrBk2oyrIkf9aB%2BxZq1BegW%2F0%3D"}],"group":"cf-nel","max_age":604800}'
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      CF-RAY:
+      - 75dc8c138f5fd6ae-CDG
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"username":"hipster1","picture":"food"},{"username":"hipster2","picture":"coffee"},{"username":"hipster3","picture":"coffee"},{"username":"hipster4","picture":"food"},{"username":"hipster5","picture":"this
+        one is of a cat"}]'
+  recorded_at: Fri, 21 Oct 2022 19:54:48 GMT
+- request:
+    method: get
+    uri: https://takehome.io/twitter
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.93.1
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 500
+      message:
+    headers:
+      Date:
+      - Fri, 21 Oct 2022 19:54:48 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '48'
+      Connection:
+      - keep-alive
+      X-Cloud-Trace-Context:
+      - 72c47e7c21d8f1215fc2303e46dfb3c7
+      Via:
+      - 1.1 google
+      CF-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NDCSp50CmcV5YETSV%2Bl%2FVs8PVEB3FOy9957FoAqJvj1cG18gQzC0Rotk25Dg5WR3BrclQooWD6PQ7eB1yQUvU9JJMQXvuGHGqvTP52s%2FVgUmKcScBCjy2xmKeFq75GquP94%3D"}],"group":"cf-nel","max_age":604800}'
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      CF-RAY:
+      - 75dc8c15ff11f120-CDG
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: I am trapped in a social media factory send help
+  recorded_at: Fri, 21 Oct 2022 19:54:49 GMT
+recorded_with: VCR 6.1.0

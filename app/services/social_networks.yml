@@ -1,0 +1,5 @@
+base: 'https://takehome.io/'
+social_networks:
+  - facebook
+  - instagram
+  - twitter

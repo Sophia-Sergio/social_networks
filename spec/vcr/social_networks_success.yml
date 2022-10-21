@@ -1,0 +1,148 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://takehome.io/facebook
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.93.1
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message:
+    headers:
+      Date:
+      - Fri, 21 Oct 2022 19:54:48 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '219'
+      Connection:
+      - keep-alive
+      access-control-allow-origin:
+      - "*"
+      X-Cloud-Trace-Context:
+      - 478311ace47d4864cb3e3870fd7d922a;o=1
+      Via:
+      - 1.1 google
+      CF-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CxyYFrXBklqZFtriXvIxv6WAuQn%2FMdxpFe4BhuaZo61aCgWIqFcV9B7lrtPFf3RBsB7y%2F8L7os6SKlplV51a9%2F6acqnmXrWr11jgQiLJPPurbgSytqrZw6yO%2BZnqOF3QmLo%3D"}],"group":"cf-nel","max_age":604800}'
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      CF-RAY:
+      - 75dc8c10eaead60d-CDG
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"name":"Some Friend","status":"Here''s some photos of my holiday.
+        Look how much more fun I''m having than you are!"},{"name":"Drama Pig","status":"I
+        am in a hospital. I will not tell you anything about why I am here."}]'
+  recorded_at: Fri, 21 Oct 2022 19:54:48 GMT
+- request:
+    method: get
+    uri: https://takehome.io/instagram
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.93.1
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message:
+    headers:
+      Date:
+      - Fri, 21 Oct 2022 19:54:48 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '226'
+      Connection:
+      - keep-alive
+      access-control-allow-origin:
+      - "*"
+      X-Cloud-Trace-Context:
+      - 263c0e1637d88b800c0471e48f12a301
+      Via:
+      - 1.1 google
+      CF-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UzKgn5Ok6eGeXCnUtSzUtLGMpkbSDu014AOf2dz%2FerleCKuPOCreHx%2BYZw5%2BtLQau7cw%2BpklMUTuyZiBNLfKdKlh9cDZmzr%2F4jSzjD16wVxrBk2oyrIkf9aB%2BxZq1BegW%2F0%3D"}],"group":"cf-nel","max_age":604800}'
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      CF-RAY:
+      - 75dc8c138f5fd6ae-CDG
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"username":"hipster1","picture":"food"},{"username":"hipster2","picture":"coffee"},{"username":"hipster3","picture":"coffee"},{"username":"hipster4","picture":"food"},{"username":"hipster5","picture":"this
+        one is of a cat"}]'
+  recorded_at: Fri, 21 Oct 2022 19:54:48 GMT
+- request:
+    method: get
+    uri: https://takehome.io/twitter
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.93.1
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message:
+    headers:
+      Date:
+      - Fri, 21 Oct 2022 19:53:26 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '321'
+      Connection:
+      - keep-alive
+      access-control-allow-origin:
+      - "*"
+      X-Cloud-Trace-Context:
+      - '0902775f85693b745ab0cee30e6972e0'
+      Via:
+      - 1.1 google
+      CF-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hVr7ZxFfPd8b9m7hkKREyCrY19J7TnIQVY%2BjWWQeK8fuU1DkQ8O52GQAU3bACroiUDRgY6Z1Ud0uirL4Txh5wI4oduAfEV4TEO0wGNWe80WwGLX9c4Cy3gWGkUHL2GtugJM%3D"}],"group":"cf-nel","max_age":604800}'
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      CF-RAY:
+      - 75dc8a14ff60d39b-CDG
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"username":"@GuyEndoreKaiser","tweet":"If you live to be 100, you
+        should make up some fake reason why, just to mess with people... like claim
+        you ate a pinecone every single day."},{"username":"@mikeleffingwell","tweet":"STOP
+        TELLING ME YOUR NEWBORN''S WEIGHT AND LENGTH I DON''T KNOW WHAT TO DO WITH
+        THAT INFORMATION."}]'
+  recorded_at: Fri, 21 Oct 2022 19:53:26 GMT
+recorded_with: VCR 6.1.0
