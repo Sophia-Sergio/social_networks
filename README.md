@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+App for fetching social networks data.
 
-Things you may want to cover:
+## Technical description
 
-* Ruby version
+App without database and views (API mode). Created with command `rails new social_network --api --skip-active-record --skip-test`. Last `--skip-test` option is included because I want to use rspec instead of minitest.
 
-* System dependencies
+## What you need
 
-* Configuration
+`ruby 3.1.0`
+`rails 7.0.1`
 
-* Database creation
+## Start program
 
-* Database initialization
+`bundle install`
+`rails s`
 
-* How to run the test suite
+## Fetch the social networks data
 
-* Services (job queues, cache servers, search engines, etc.)
+`curl localhost:3000`
 
-* Deployment instructions
+## Testing
 
-* ...
+`rspec spec/controllers/application_controller_spec.rb`
