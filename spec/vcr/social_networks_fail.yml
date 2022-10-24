@@ -132,8 +132,4 @@ http_interactions:
       encoding: ASCII-8BIT
       string: I am trapped in a social media factory send help
   recorded_at: Fri, 21 Oct 2022 19:53:26 GMT
-
-
-
-
 recorded_with: VCR 6.1.0
